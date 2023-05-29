@@ -1,4 +1,4 @@
-package avltree;
+package Ejercicio1;
 
 public class BSTree<E extends Comparable<E>> {
     protected class Node {
@@ -101,21 +101,20 @@ public class BSTree<E extends Comparable<E>> {
         }
         return minv;
     }
-
+    
     public int height() {
-        return heightRec(root);
+        return heightRec(this.root);
     }
-
+    
     private int heightRec(Node node) {
         if (node == null) {
             return 0;
         }
-
+        
         int leftHeight = heightRec(node.left);
         int rightHeight = heightRec(node.right);
-
+        
         return Math.max(leftHeight, rightHeight) + 1;
     }
-
 }
 

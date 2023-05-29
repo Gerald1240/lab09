@@ -1,4 +1,4 @@
-package avltree;
+package Ejercicio3;
 
 //La clase ItemNotFound hereda de la clase Exception
 //Esto se hace para crear una excepción personalizada en Java

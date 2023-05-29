@@ -1,4 +1,4 @@
-package avltree;
+package Ejercicio1;
 
 //La clase ItemDuplicated hereda de la clase base Exception.
 //Esta es una práctica común cuando se crean excepciones personalizadas en Java.
